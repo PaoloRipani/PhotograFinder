@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+  <%- include("./partials/header"); %>
+  <body>
+    <%- include("./partials/navbar"); %>
+    <main class="container-md mt-md-5 mt-2 mb-3">
+      <div class="row mb-md-4 mx-auto">
+        <div class="col-lg-9 m-md-0 mt-5">
+          <div class="d-flex align-items-md-center align-items-end h-100 py-5">
+            <div class="container-md text-end">
+              <h2 class="fst-italic text-white m-0">Socialify</h2>
+              <span class="d-md-inline-block d-none fw-bolder">
+                Un luogo per condividere pensieri e fotografie.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center my-md-auto mt-2">
+          <div class="d-flex justify-content-center flex-column h-100">
+            <div class="container-md mb-3">
+              <h5>Accedi</h5>
+              <div class="container-md">
+                <a
+                  href="/oauth/google"
+                  class="btn btn-outline-success rounded-circle ms-1"
+                >
+                  <i class="fa-brands fa-google"></i>
+                </a>
+                <a class="btn btn-outline-primary rounded-circle mx-1">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="btn btn-outline-secondary rounded-circle me-1">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <div class="container-md mb-3">
+              <h5>Registrati</h5>
+              <div class="container-md">
+                <a class="btn btn-outline-secondary rounded-circle me-1">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-md mb-md-3 mb-2 mt-2">
+        <h3 class="fst-italic m-0">Info</h3>
+        <span>
+          Accedi con la tua mail o con l'account Google o Facebook per iniziare
+          a postare pensieri e fotografie.
+        </span>
+      </div>
+      <div class="container-md mb-md-auto mb-2 mt-2">
+        <h3 class="fst-italic m-0">About Us</h3>
+        <span> Progetto pratico per il corso di Reti di Calcolatori. </span>
+        <div class="row text-center my-md-3 my-3 mx-auto">
+          <div class="col-lg-4 my-md-auto">
+            <div class="picture rounded-circle mx-auto"></div>
+            <span class="fst-italic">Michael Mancini</span>
+            <br />
+            <span class="fst-italic">1884654</span>
+          </div>
+          <div class="col-lg-4 my-md-auto my-3">
+            <div class="picture rounded-circle mx-auto"></div>
+            <span class="fst-italic">Lorenzo Gizzi</span>
+            <br />
+            <span class="fst-italic">1907374</span>
+          </div>
+          <div class="col-lg-4 my-md-auto">
+            <div class="picture rounded-circle mx-auto"></div>
+            <span class="fst-italic">Simone Mariano</span>
+            <br />
+            <span class="fst-italic">1883519</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <%- include("./partials/footer"); %>
+  </body>
+</html>
