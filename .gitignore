@@ -1,1 +1,2 @@
 # ignorare il .env
+/server/config/.env
