@@ -1,0 +1,136 @@
+body {
+	background: #020A1B;
+	color: #ffffff;
+	font-family: 'Merriweather', sans-serif;
+	overflow: none;
+}
+
+.headerBar{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 40px;
+}
+
+.titleHead{
+	font-size: 12px;
+	font-weight: bold;
+	color:#eee;
+	padding-left: 24px;
+	cursor: pointer;
+}
+
+.btnBar{
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #eee;
+	padding-left: 24px;
+	cursor: pointer;
+}
+
+.container{
+	padding: 24px;
+	overflow-y: auto;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+}
+
+.H1Cont{
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+}
+
+.H2Cont{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+.PCont{
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.loginCont{
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	margin: 12px;
+	background-color: #eee;
+	color: #020A1B;
+}
+
+.exampleContainer{
+	margin-top: 24px;
+}
+
+.profileWrapper{
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+	background-color: #2a2a2a;
+	border-radius: 24px;
+}
+
+.profileHead{
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 24px;
+}
+
+.profilePicture{
+	border-radius: 50%;
+	background-color: #585858;
+	height: 72px;
+	width: 72px;
+}
+
+.profileNameBox{
+	display: flex;
+	flex-direction: column;
+	margin-left: 24px;
+}
+
+.profileName{
+	font-size: 16px;
+	color: white;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+}
+
+.profileRole{
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+}
+
+.profilePostWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.profilePost{
+	height: 200px;
+	width: 200px;
+	margin: 24px;
+	background-color: aliceblue;
+}
