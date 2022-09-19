@@ -173,3 +173,50 @@ body {
 	margin: 24px;
 	background-color: aliceblue;
 }
+
+/* ABOUT US */
+
+.creatorWrapper {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.creatorElement {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 16px;
+	min-width: 240px;
+}
+
+.creatorIcon {
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	background-color: #004c8f;
+}
+
+.creatorDetails {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 16px;
+}
+
+.creatorName {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.creatorMatricola {
+	font-size: 18px;
+	font-style: italic;
+}

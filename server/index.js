@@ -32,6 +32,14 @@ router.get('/', function(req,res){
   res.sendFile(path + 'index.html');
 });
 
+router.get('/aboutus', function(req,res){
+  res.sendFile(path + 'aboutus.html');
+});
+
+router.get('/guide', function(req,res){
+  res.sendFile(path + 'guide.html');
+});
+
 app.use(express.static(path));
 app.use('/', router);
 app.use('/images', express.static(__dirname + '/images'));
