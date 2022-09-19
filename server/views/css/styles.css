@@ -154,7 +154,10 @@ body {
 	border-radius: 4px;
 	position: absolute;
 	margin-left: 704px;
-	background-image: url("/server/images/visit.png");
+	background-image: url("/images/visit.png");
+	background-size: 24px 24px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profilePostWrapper{

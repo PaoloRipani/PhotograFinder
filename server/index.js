@@ -34,7 +34,8 @@ router.get('/', function(req,res){
 
 app.use(express.static(path));
 app.use('/', router);
+app.use('/images', express.static(__dirname + '/images'));
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8080!')
+  console.log('Example app listening on port 3000!')
 })
